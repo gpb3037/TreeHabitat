@@ -28,12 +28,18 @@ Data sources
 from Census TIGER Topologically Integrated Geographic Encoding and Referencing system
 reference https://www.census.gov/programs-surveys/geography/guidance/tiger-data-products-guide.html
 
-Boundary - Census county boundaries selected by GEOID code from shapes within  https://www2.census.gov/geo/tiger/TIGER2024/COUNTY/tl_2024_us_county.zip
+Boundary - Census county boundaries selected by GEOID code from shapes within  https://www2.census.gov/geo/tiger/TIGER2024/COUNTY/tl_2024_us_county.zip 
+unzip this and put it in the current working directory
 
+*** IMPORTANT - in the current classroom enviroment after unzipping and running the StudyAreaSetup.ipynb, you need to delete the large overall county files as this will cause a problem with uploading back to github ***
+
+To get
 Hydrography - Census linear water for selected GEOID codes
 https://www2.census.gov/geo/tiger/TIGER2024/LINEARWATER/tl_2024_08013_linearwater.zip  BOULDER
 https://www2.census.gov/geo/tiger/TIGER2024/LINEARWATER/tl_2024_35055_linearwater.zip  TAOS
 https://www2.census.gov/geo/tiger/TIGER2024/LINEARWATER/tl_2024_56001_linearwater.zip  ALBANY
+Use the notebook
+*** addlinearwater.ipnynb ***
 
 Digital Elevation Model -
 ##### SRTM or the Shuttle Radar Topography Mission was started 1999 onboard the Endeavour and collected data for 11 days. As the orbit of the shuttle was not circumpolar but sinusoidal it was only possible to  cover a small portion of the earth surface. The shuttle therefore used the reflection of emitted radar signals in the so-called C-band (wavelength 5.6 cm) for the SIR-C sensor developed by the Jet Propulsion Laboratory and the X-band (wavelength 3.1 cm) for the X-SAR sensor developed by the German Aerospace Agency. The mission was clear: map the world!
